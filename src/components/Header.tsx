@@ -15,13 +15,13 @@ function Header() {
       <Link className="transition hover:duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500  " to="/">
         Home
       </Link>
-      <Link className="transition duration-700 ease-in-out  text-lg  ml-11 font-bold hover:text-slate-500 " to="/Projects">
+      <Link className="transition duration-700 ease-in-out  text-lg  ml-11 font-bold hover:text-slate-500 " to="/blogs">
         Blog
       </Link>
       <Link className="transition duration-700 ease-in-out  text-lg  ml-11 font-bold hover:text-slate-500 " to="/About">
         About
       </Link>
-      <Link className="transition duration-700 ease-in-out  text-lg  ml-11 font-bold hover:text-slate-500 " to="/Contacts">
+      <Link className="transition duration-700 ease-in-out  text-lg  ml-11 font-bold hover:text-slate-500 " to="/Contact">
         Contacts
       </Link>
      
