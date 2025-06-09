@@ -5,7 +5,7 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className=" flex fixed  top-0  px-10 py-6 items-center z-50 justify-between bg-background w-full ">
+    <div className=" flex fixed top-0  px-10 py-6 items-center z-50 justify-between bg-background w-full ">
       <div className="p-3 ml-3 tracking-widest  shadow-2xl font-bold text-xl text-white">
         D-TECH
         </div>

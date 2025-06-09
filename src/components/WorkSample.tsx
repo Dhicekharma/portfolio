@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function WorkSample() {
   return (
-    <div className="  items-center  space-y-11 pb-10 h-fit pt-5 mx-auto  overflow-hidden">
+    <div className="  items-center  space-y-11 pb-10 h-fit pt-5 mx-auto  ">
     <h1 className=" font-bold text-2xl text-center ">My Work</h1>
 
     <div className=" grid  lg:grid-cols-5 gap-y-9 md:grid-cols-3 sm:grid-cols-2 h-fit w-fit py-5 gap-10  m-auto">
