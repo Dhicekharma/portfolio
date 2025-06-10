@@ -42,13 +42,7 @@ function SkillsAndAbout() {
             experience, I bring a detail-oriented approach to problem-solving
             and a dedication to delivering secure, effective solutions."
           </p>
-          <Link
-            className=" w-36  relative bg-background border-background border-2 rounded-lg inline-flex text-white font-bold tracking-wider justify-center items-center
-               hover:bg-transparent transition-colors duration-1000  hover:text-background mt-5"
-            to="About"
-          >
-            More About
-          </Link>
+       
         </div>
         {/* beautifying middle image  */}
         <div className=" ">
