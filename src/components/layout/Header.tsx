@@ -30,7 +30,7 @@ function Header() {
         <Link className="transition duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500" to="/About">
           About
         </Link>
-        <Link className="transition duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500" to="/footer">
+        <Link className="transition duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500" to="contact">
           Contacts
         </Link>
         <Link className="transition duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500" to="/Projects">
@@ -64,7 +64,7 @@ function Header() {
           </Link>
           <Link
             className="transition duration-700 ease-in-out text-lg mb-4 font-bold hover:text-slate-500"
-            to="/footer"
+            to="/contact"
             onClick={() => setIsMenuOpen(false)}
           >
             Contacts

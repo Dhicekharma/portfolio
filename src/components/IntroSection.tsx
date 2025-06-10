@@ -8,9 +8,12 @@ function IntroSection() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i> a FEM full stack</i> Web Developer.', ' &amp; a second sentence.', ' the third sentence'],
+      strings: ['<i> a FEM full stack</i> Web Developer.'
+        , '<i> a Networking  Support Engineer.</i>'
+        ,     '<i> a Cyber Security practioner</i>'
+      ],
       typeSpeed: 50,
-      //smartBackspace: true,
+      smartBackspace: true,
       backSpeed: 100,
       loop: true,
       backDelay: 700,
