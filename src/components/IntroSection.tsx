@@ -27,7 +27,7 @@ function IntroSection() {
 
   return (
 
-      <div className="  flex-col h-fit pt-24    lg:flex-row flex items-center bg-background py-0 px-10 lg:h-screen overflow-hidden ">
+      <div className="  flex-col  pt-24 justify-center items-center    lg:flex-row flex items-center bg-background py-0 px-10 h-screen overflow-hidden ">
         <div className="  text-white leading-relaxed   ">
           <p className="text-based text-4xl lg:text-5xl font-bold  ">
             Welcome Aboard

@@ -15,9 +15,16 @@ function Header() {
       </div>
 
       {/* Hamburger Icon for Mobile */}
-      <div className="md:hidden" onClick={toggleMenu}>
-        <img src="icons/hamburger.png" alt="Menu" className="w-6 h-6 cursor-pointer" />
-      </div>
+      <div onClick={toggleMenu}>
+  {
+    !isMenuOpen ? (
+      <img src="Icons/menu.png" alt="Open Menu" className="w-6 h-6 cursor-pointer" />
+    ) : (
+      <img src="Icons/cross.png" alt="Close Menu" className="w-6 h-6 cursor-pointer" />
+    )
+  }
+</div>
+
 
       {/* Desktop Menu */}
       <div className="hidden md:flex p-3 mx-10 justify-around text-gray-200">
