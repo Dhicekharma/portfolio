@@ -15,7 +15,7 @@ function Header() {
       </div>
 
       {/* Hamburger Icon for Mobile */}
-      <div onClick={toggleMenu}>
+      <div onClick={toggleMenu} className="md:hidden">
   {
     !isMenuOpen ? (
       <img src="Icons/menu.png" alt="Open Menu" className="w-6 h-6 cursor-pointer" />

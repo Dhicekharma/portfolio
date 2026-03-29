@@ -64,8 +64,8 @@ function IntroSection() {
             </Link>
           </div>
         </div>
-        <div className="w-[60%] left-auto">
-          <img className=" opacity-10   " src="profile.png" alt="my pic" />
+        <div className="w-[50%] left-auto">
+          <img className="   " src="profile.png" alt="my pic" />
         </div>
       </div>
   )

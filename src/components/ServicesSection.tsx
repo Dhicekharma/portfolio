@@ -28,6 +28,16 @@ const ServicesSection: React.FC = () => {
       description: "Application and network security analysis and penetration testing.",
       imageUrl: "Icons/web-development.png",
       id: 2,
+    },  {
+      title: "security Specialist",
+      description: "Application and network security analysis and penetration testing.",
+      imageUrl: "Icons/web-development.png",
+      id: 3,
+    },  {
+      title: " Specialist",
+      description: "Application and network security analysis and penetration testing.",
+      imageUrl: "Icons/web-development.png",
+      id: 4,
     },
   ]);
 
