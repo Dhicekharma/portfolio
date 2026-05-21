@@ -10,9 +10,9 @@ function Header() {
   return (
     <div className="flex fixed top-0 left-0 px-6 py-6 items-center h-[50px] z-50 justify-between bg-background w-full shadow-lg">
       {/* Logo */}
-      <div className="p-3 tracking-widest font-bold text-xl text-white">
+      <Link to="/" className="p-3 tracking-widest font-bold text-xl text-white">
         D-TECH
-      </div>
+      </Link>
 
       {/* Hamburger Icon for Mobile */}
       <div onClick={toggleMenu} className="md:hidden">
@@ -31,7 +31,7 @@ function Header() {
         <Link className="transition duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500" to="/">
           Home
         </Link>
-        <Link className="transition duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500" to="/Blog">
+        <Link className="transition duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500" to="/blogs">
           Blog
         </Link>
         <Link className="transition duration-700 ease-in-out text-lg ml-11 font-bold hover:text-slate-500" to="/About">
