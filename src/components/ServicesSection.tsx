@@ -48,7 +48,7 @@ const ServicesSection: React.FC = () => {
 
   useEffect(() => {
     setServicesToShow(servicesData.slice(0, itemsPerPage));
-  }, []);
+  }, [servicesData]);
 
   const loadMoreServices = () => {
     setTimeout(() => {

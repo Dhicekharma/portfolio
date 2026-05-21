@@ -23,7 +23,7 @@ function IntroSection() {
       // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
-  }, [1]);
+  }, []);
 
   return (
 
