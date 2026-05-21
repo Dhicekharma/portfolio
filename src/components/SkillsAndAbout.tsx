@@ -6,6 +6,7 @@ function SkillsAndAbout() {
     {
       skillName: "React",
       skillLevel: "80",
+      
       id: 0,
     },
     {

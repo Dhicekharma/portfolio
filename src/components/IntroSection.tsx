@@ -20,7 +20,7 @@ function IntroSection() {
     });
 
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
+      // Destroy Typed instance during cleanup to stop Animation 
       typed.destroy();
     };
   }, []);
